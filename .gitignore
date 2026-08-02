@@ -1,42 +1,13 @@
-# Terraform working directory
+# Local .terraform directories
+**/.terraform/*
 .terraform/
 
-# Terraform state files
+# terraform state files
 *.tfstate
 *.tfstate.*
-terraform.tfstate
-terraform.tfstate.backup
 
-# Terraform lock file (optional)
-# Keep this if you want consistent provider versions across team
-# .terraform.lock.hcl
+# Terraform lock files
+.terraform.lock.hcl
 
-# Terraform crash logs
-crash.log
-crash.*.log
-
-
-# Sensitive files
-*.pem
-*.key
-*.crt
-
-# AWS credentials
-.aws/
-
-# Terraform plan files
-*.tfplan
-plan.out
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# VS Code
-.vscode/
-
-# IntelliJ
-.idea/
-
-# Logs
-*.log
+# Documents
+*.doc
